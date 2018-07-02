@@ -11,13 +11,13 @@ header {
 	/*float:left;*/
 }
 
-div-right {
+right {
 	display:inline-block;
 	float:right;
 	margin-right:10px;
 }
 
-div-left {
+left {
 	margin-left:5px;
 	width:100px;
 	display:inline-block;
