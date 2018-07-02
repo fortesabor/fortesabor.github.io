@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+}
+
+header {
+	display:inline-block;
+	background-color: #333;
+	color:WhiteSmoke;
+	width:100%;
+	border-bottom:2px solid Black;
+	/*float:left;*/
+}
+
+div-right {
+	display:inline-block;
+	float:right;
+	margin-right:10px;
+}
+
+div-left {
+	margin-left:5px;
+	width:100px;
+	display:inline-block;
+	float:left;
+}
+
+main {
+	margin-top:50%;
+}
