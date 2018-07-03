@@ -3,12 +3,33 @@ body {
 }
 
 header {
-	display:inline-block;
+	position:fixed;
 	background-color: #333;
 	color:WhiteSmoke;
+	z-index:1;
+	margin-top:-60px;
+	height:60px;
 	width:100%;
 	border-bottom:2px solid Black;
-	/*float:left;*/
+}
+
+main {
+	margin-top:60px;
+	padding:10px;
+	color:White;
+	margin-bottom:20px;
+	border-bottom:1px solid #009;
+	background: linear-gradient(to bottom right, #33f, #00a);
+}
+* {
+	z-index:0;
+}
+post div {
+	margin-left:10%;
+	margin-right:10%;
+	margin-bottom:10px;
+	background-color:#ddd;
+	border:2px solid Black;
 }
 
 right {
@@ -22,8 +43,4 @@ left {
 	width:100px;
 	display:inline-block;
 	float:left;
-}
-
-main {
-	margin-top:50%;
 }
