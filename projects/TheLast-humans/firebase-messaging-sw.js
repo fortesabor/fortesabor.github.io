@@ -14,7 +14,7 @@ firebase.initializeApp(config);
 const messaging = firebase.messaging();
 
 messaging.setBackgroundMessageHandler(function(payload) {
-	const title = 'Hello World';
+	const title = 'The Last';
 	const options = {
 		body: payload.data.body
 	};

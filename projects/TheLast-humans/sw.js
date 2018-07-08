@@ -1,10 +1,13 @@
 var cacheName = 'MyPWA';
 var filesToCache = [
-	'/',
+	'./',
 	'/icons/svg/user-white.svg',
-  '/js/app.js',
-  '/index.html',
-  '/css/app.css'
+  './js/app.js',
+  './index.html',
+  './css/app.css',
+	'/',
+	'/CSS',
+	'/JS'
 ];
 
 self.addEventListener('install', function(e) {
