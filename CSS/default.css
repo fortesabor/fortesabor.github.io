@@ -55,7 +55,8 @@ main {
 	color:Snow;
 	margin-bottom:20px;
 	border-bottom:1px solid #005;
-	background: linear-gradient(to bottom right, #33f, #005);
+	background:url("/bom.PNG");
+	/*background: linear-gradient(to bottom right, #33f, #005);#/
 }
 * {
 	z-index:0;
