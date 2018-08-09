@@ -3,6 +3,8 @@ body {
 	background-size:100%;
 	background-position-y:center;
 	background:url("/bom.PNG");
+	background-repeat: no-repeat;
+    	background-size: cover;
 }
 
 code {
