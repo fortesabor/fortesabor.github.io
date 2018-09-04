@@ -11,6 +11,35 @@
   	<script src="/jquery.min.js"></script>
 	<script src='/JS/index.js'></script>
 	<script src='/draggabilly.pkgd.min.js'></script>
+		<style type="text/css">
+			.rating > span:hover:before {
+   			content: "\2605";
+   			position: absolute;
+			}
+			.rating {
+  			unicode-bidi: bidi-override;
+  			direction: rtl;
+			}
+			.rating > span:hover:before,
+			.rating > span:hover ~ span:before {
+   			content: "\2605";
+   			position: absolute;
+			}
+			.rating {
+  			unicode-bidi: bidi-override;
+  			direction: rtl;
+			}
+			.rating > span {
+  			display: inline-block;
+  			position: relative;
+  			width: 1.1em;
+			}
+			.rating > span:hover:before,
+			.rating > span:hover ~ span:before {
+   			content: "\2605";
+   			position: absolute;
+			}
+		</style>
 	<header>
 	  <center>
 		<h3>Forte Sabor</h3>
@@ -18,18 +47,20 @@
 	</header>
 	<main>
 	  <center>
-		<h2>
-		  O melhor cafézinho <br>
-		  da cidade e do mundo!
-		</h2>
-		<p>
-		  temos café com tele-entrega!! <br>
-		</p>
-		<a href="#tele">(51) 9 0000 0000</a>
 	  </center>
 	</main>
 	<center>
-	  <button onclick="abreJanela()" style='width:100%; height:30px'>Abrir o Cardápio</button>
+	  <button onclick="abreJanela()" style='width:100%; height:30px; padding:20px; padding-top:100px'>Abrir o Cardápio</button>
+		<h2>Contato</h2>
+		<form method="post">
+			<input type="Username" placeholder="Nome">
+			<input type="email" placeholder="Email">
+			<input type="text" placeholder="Escreva o que achou da mercadoria com os mínimos detalhes...">
+			<div class="rating">
+				Nota:<br>
+				<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+			</div>
+		</form>
 	</center>
   </body>
 </html>
