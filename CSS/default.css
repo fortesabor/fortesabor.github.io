@@ -84,7 +84,7 @@ left {
 	float:left;
 }
 
-button {
+input[type="submit"], button {
     background: none;
     border: none;
     padding: 0;
