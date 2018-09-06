@@ -40,8 +40,11 @@
    			content: "\2605";
    			position: absolute;
 			}
-			.rating {
+			.borda {
 			text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+			}
+			span[onmouseover] {
+				color:#ff0;
 			}
 		</style>
 	<header style="background-color:#FF0000">
@@ -61,7 +64,7 @@
 			<input type="email" placeholder="Email"> <br>
 			<input type="text" style="heigth:200px" placeholder="Escreva o que achou da mercadoria com os mínimos detalhes...">
 			<div class="rating">
-				<p style="color:White">:Nota</p><br>
+				<p class="borda" style="color:White">:Nota</p><br>
 				<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
 			</div>
 			<input type="submit">
