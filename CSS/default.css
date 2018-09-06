@@ -45,7 +45,7 @@ info {
 
 header {
 	position:fixed;
-	background: #FF0000;
+	background-color: #FF0000;
 	color:White;
 	height:60px;
 	margin-top:-60px;
