@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	background-position-y:center;
+	background-position-x:center;
 	background:url("/bom.PNG");
 	background-repeat: no-repeat;
     	background-size: cover;
