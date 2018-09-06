@@ -43,10 +43,22 @@
 			.borda {
 			text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 			}
-			span[onmouseover] {
-				color:#ff0;
-			}
 		</style>
+	  <script type="text=javascript">
+	  	var a = document.getElementById("star");
+		a.onmousedown = new function() {
+			a.style.color = "#ff0";
+		}
+		a.onmouseup = new function() {
+			a.style.color = "#000";
+		}
+		a.ontouchdown = new function() {
+			a.style.color = "#ff0";
+		}
+		a.ontouchup = new function() {
+			a.style.color = "#000";
+		}
+	  </script>
 	<header style="background-color:#FF0000">
 	  <center>
 		<h3>Forte Sabor</h3>
@@ -65,7 +77,7 @@
 			<input type="text" style="heigth:200px" placeholder="Escreva o que achou da mercadoria com os mínimos detalhes...">
 			<div class="rating">
 				<p class="borda" style="color:White">:Nota</p><br>
-				<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+				<span id=star>☆</span><span id=star>☆</span><span id=star>☆</span><span id=star>☆</span><span id=star>☆</span>
 			</div>
 			<input type="submit">
 		</form>
